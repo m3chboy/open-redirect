@@ -1,5 +1,10 @@
 # open-redirect
 
+* Replace www.whitelisteddomain.tld to target.com
+  ```
+  sed -i 's/www.whitelisteddomain.tld/target.com/' payload.txt
+  ```
+
 ```
 
 ";alert(0);//
